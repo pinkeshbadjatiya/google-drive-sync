@@ -3,10 +3,9 @@ A wrapper function for grive, a terminal based google drive sync utility.
   
 
 
-![alt_text][logo]
+![google-grive-sync Screenshot][logo]
 
 [logo]: http://i.imgur.com/3J9KuQX.png "google-grive-sync Screenshot"
-[alt_text]: "google-grive-sync Screenshot"
 
 
 ### Note  
