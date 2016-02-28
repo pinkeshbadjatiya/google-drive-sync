@@ -27,4 +27,4 @@ Add custom function. I have used a lot of functions like `HTTP_PROXY` which are 
 `HTTP_PROXY`    ->    It just sets up all kinds of terminal proxy and no-proxy variables(Useful if you are working from behind a network).  
 `UNSET_PROXY`   ->    Unsets all kinds of proxy and no-proy variables.(Useful if you are working from behind a network)  
 `keybindings.pl`  ->  It backs up all the custom keyboard shortcuts assegined in ubuntu. (I use tons of them :))  
-  
+`check_internet`  ->  Checks for internet Connectivity both with and without proxy and returns the status code(using curl)  
