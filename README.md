@@ -9,8 +9,13 @@ A wrapper function for grive, a terminal based google drive sync utility.
 
 
 ### Note  
-The code is essentially naive but very useful if you want to sync data on drive.google.com using terminal.  
-Another factor, why i use this code is, i do not need to change my directory location for syncing(like in dropbox) where we sync a single folder. We can just soft link the folder and make sure they are not dangling links before syncing.  
+If you want to sync data on drive.google.com using terminal and have a very absurd but useful directory sstructure then you are at the right place.  
+
+google-grive-sync is a simple wrapper function written in bash according to custom specifications. It essentially brings various directories, settings, runs some backup-scripts and sructures the code for upload on drive.google.com. Best thing is, it does not move a file. Everything is done by soft/hard linking. This gives a very good directory structure for drive.google.com while keeping the original data intact.  
+
+<b>Why i use this code?</b>  
+Because, I do not need to change my directory location for syncing(like in dropbox) where we sync a single folder. We can just soft link the folders and make sure they are not dangling links before syncing.  
+The code is essentially naive but very useful after custom tweaks :P. 
 
 
 
